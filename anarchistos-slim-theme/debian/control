@@ -1,0 +1,13 @@
+Source: anarchistos-slim-theme
+Section: x11
+Priority: extra
+Maintainer: AreYouLoco? <areyouloco@paranoici.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://www.anarchistos.tk
+
+Package: anarchistos-slim-theme
+Architecture: all
+Depends: ${misc:Depends}, fonts-liberation
+Description: default SLiM theme for AnarchistOS
+ Default SLiM graphical login theme for AnarchistOS.

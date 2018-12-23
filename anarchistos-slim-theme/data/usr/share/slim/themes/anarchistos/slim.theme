@@ -1,0 +1,38 @@
+# AnarchistOS theme for SLiM
+# by AreYouLoco? <areyouloco@paranoici.org>
+
+# Messages (ie: shutdown)
+msg_color               #D8D8D8
+msg_font                Liberation Mono:size=12:dpi=75
+msg_x                   20%
+msg_y                   40%
+msg_shadow_color #ff0000
+msg_shadow_xoffset 1
+msg_shadow_yoffset 1
+
+# valid values: stretch, tile
+background_style        tile
+background_color        #000000
+
+# Input controls
+input_panel_x           20%
+input_panel_y           50%
+input_name_x            59
+input_name_y            161
+input_font              Liberation Sans:size=12:dpi=75
+input_fgcolor           #ffffff
+
+# Username / password request
+username_font           Liberation Mono:size=12:dpi=75
+#username_color          #D8D8D8
+username_color          #ff0000
+username_x              50%
+username_y              122
+password_x              50%
+password_y              122
+username_shadow_color   #000000
+username_shadow_xoffset 0
+username_shadow_yoffset 0
+
+username_msg            U    S    E    R    N    A    M    E
+password_msg            P    A    S    S    W    O    R    D
